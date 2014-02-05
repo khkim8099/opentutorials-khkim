@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <style type="text/css">
+            body {
+                font-size: 0.8em;
+                font-family: dotum;
+                line-height: 1.6em;
+            }
+            body.black {
+                background-color: black;
+                color: white;
+            }
+            body.black a {
+                color: white;
+            }
+            body.black a:hover {
+                color: #f60;
+            }
+            body.black header {
+                border-bottom: 1px solid #ccc;
+            }
+            body.black nav {
+                border-right: 1px solid #ccc;
+            }
+            header {
+                border-bottom: 1px solid #ccc;
+                padding: 20px 0;
+            }
+            #toolbar {
+                padding: 10px;
+                float: right;
+            }
+            nav {
+                float: left;
+                margin-right: 20px;
+                min-height: 500px;
+                border-right: 1px solid #ccc;
+            }
+            nav ul {
+                list-style: none;
+                padding-left: 0;
+                padding-right: 20px;
+            }
+            article {
+                float: left;
+            }
+            footer {
+                clear: both;
+            }
+            a {
+                text-decoration: none;
+            }
+            a:link, a:visited {
+                color: #333;
+            }
+            a:hover {
+                color: #f60;
+            }
+            h1 {
+                font-size: 1.4em;
+            }
+        </style>
+    </head>
+ 
+    <body id="body">
+        <div>
+            <header>
+                <h1>JavaScript</h1>
+            </header>
+            <div id="toolbar">
+                <input type="button" value="black" onclick="document.getElementById('body').className='black'" />
+                <input type="button" value="white" onclick="document.getElementById('body').className='white'" />
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="http://opentutorials.org/course/49/16">JavaScript</a>
+                    </li>
+                    <li>
+                        <a href="http://opentutorials.org/course/49/17">蹂?섏? ?곸닔</a>
+                    </li>
+                    <li>
+                        <a href="http://opentutorials.org/course/49/18">?곗궛??/a>
+                    </li>
+                    <li>
+                        <a href="http://opentutorials.org/course/49/19">?⑥닔</a>
+                    </li>
+                    <li>
+                        <a href="http://opentutorials.org/course/49/20">?대깽??/a>
+                    </li>
+                    <li>
+                        <a href="http://opentutorials.org/course/49/21">媛앹껜</a>
+                    </li>
+                </ul>
+            </nav>
+            <article>
+                <h2>蹂?섏? ?곸닔</h2>
+                <div>
+                    <p>
+                        蹂?섎?
+                    </p>
+                    <ul>
+                        <li>
+                            蹂?섎뒗 媛?
+                        </li>
+                        <li>
+                            x = 10 ?????쇱そ??씤 x???ㅻⅨ履???씤 10???곕씪 ?ㅻⅨ 媛믪씠 吏?뺣맂??
+                        </li>
+                    </ul>
+                    <p>
+                        ?곸닔?
+                    </p>
+                    <ul>
+                        <li>
+                            蹂?섏? ?딅뒗 媛?
+                        </li>
+                        <li>
+                            x = 10 ?????ㅻⅨ履쏀빆??10???곸닔媛 ?쒕떎.
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </body>
+</html>
